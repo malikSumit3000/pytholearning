@@ -4,6 +4,7 @@ import time
 now = time.strftime("%d-%b-%y %H:%M:%S")
 print(now)
 
+
 while True:
     user_input = input("Type add, show, edit, complete or exit :")
     user_input = user_input.strip()
