@@ -1,6 +1,11 @@
 import functions
 import PySimpleGUI as gui
 import time
+import os
+
+if not os.path.exists('todos.txt'):
+    with open('todos.txt', 'w'):
+        pass
 
 gui.theme('LightGreen2')
 
@@ -53,7 +58,7 @@ while True:
                 todo_to_complete = values['todos'][0]
                 todos = functions.get_todos()
                 index = todos.index(todo_to_complete)
-                todos.remove(index)
+                todos.pop(index)
 
                 functions.write_todos(todos)
                 window['todos'].update(values=todos)
