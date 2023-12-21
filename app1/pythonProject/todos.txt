@@ -1,6 +1,2 @@
-clean
-play chess
-study
-run
-sing
-fu
+running
+shower
