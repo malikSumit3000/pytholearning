@@ -42,4 +42,4 @@ for index, row in df.iterrows():
         pdf.set_text_color(180, 180, 180)
         pdf.cell(w=0, h=5, txt=row["Topic"], align="R", ln=1)
 
-pdf.output("output.pdf")
+pdf.output("exercise_output.pdf")
