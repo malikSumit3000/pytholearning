@@ -42,7 +42,6 @@ def stat_annual_data(station, year):
     filename = "data_small/TG_STAID" + str(station).zfill(6) + ".txt"
     df = pd.read_csv(filename, skiprows=20)
     df["TG"] = df['   TG'].loc[df['   TG'] != -9999] / 10
-    df["    DATE"] = df["    DATE"].astype(str)
     df = df[df["    DATE"].astype(str).str.startswith(str(year))]
     annual_data = df[['    DATE', "TG"]].to_html()
     return render_template("yearly.html", data=annual_data)
