@@ -11,7 +11,4 @@ def getdata(place, forecast_days):
     weather_data = content['list']
     required_data = weather_data[:forecast_days * 8]
     return required_data
-
-
-if __name__ == "__main__":
-    print(getdata(place="Newdelhi", forecast_days=3))
+    
