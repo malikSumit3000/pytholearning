@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6b3eeb4-ef2d-4732-a8e2-e36f46080f05" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/app7weather.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student-project/In-search-for-happiness.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/student-project/happy.csv" afterDir="false" />
+    <list default="true" id="e6b3eeb4-ef2d-4732-a8e2-e36f46080f05" name="Changes" comment="Made an app for weather forecasting">
+      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +53,7 @@
       <recent name="C:\Users\smali\Documents\GitHub\pytholearning\app7weather" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.backend">
+  <component name="RunManager">
     <configuration name="backend" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="app7weather" />
       <option name="ENV_FILES" value="" />
@@ -129,7 +121,28 @@
       <option name="presentableId" value="Default" />
       <updated>1741924586776</updated>
     </task>
+    <task id="LOCAL-00001" summary="Made an app for weather forecasting">
+      <option name="closed" value="true" />
+      <created>1741937440855</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1741937440856</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Made an app for weather forecasting">
+      <option name="closed" value="true" />
+      <created>1741937465150</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1741937465150</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Made an app for weather forecasting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Made an app for weather forecasting" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

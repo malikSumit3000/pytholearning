@@ -20,8 +20,8 @@ if place:
 
         if category == 'Temperature':
             processed_data = [{"datetime": entry["dt_txt"], "temperature": entry["main"]["temp"]/10} for entry in data]
-            x_axis = [entry["datetime"] for entry in processed_data]  # Extracts all datetime values
-            y_axis = [entry["temperature"] for entry in processed_data]  # Extracts all temperatures
+            x_axis = [entry["datetime"] for entry in processed_data]
+            y_axis = [entry["temperature"] for entry in processed_data]
             figure = px.line(x=x_axis, y=y_axis, labels={'x': 'dates', 'y': 'temperature(C)'})
             st.plotly_chart(figure)
 
@@ -30,7 +30,8 @@ if place:
             images = {'Clear': 'images/clear.png', 'Snow': 'images/snow.png', 'Rain': 'images/rain.png',
                       'Clouds': 'images/cloud.png'}
             image_path = [images[condition] for condition in processed_data]
-            st.image(image_path,width=120)
+            st.image(image_path, width=120)
+
     except KeyError:
         st.write("That place is not in our repository or  does not exist.")
 
