@@ -1,9 +1,10 @@
 import requests
 from send_email import sending_email
+import os
 
-api_key = "23f98aadee7d4636a4b8a73f8627daeb"
+api_key = os.getenv("API_KEY")
 
-topic = "business"
+topic = "Business"
 url = ("https://newsapi.org/v2/everything?"
        f"q={topic}&from=2025-02-04&sortBy=publishedAt&"
        "apiKey=23f98aadee7d4636a4b8a73f8627daeb&"
